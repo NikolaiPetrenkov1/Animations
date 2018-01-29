@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <Polyline Points="67 42 61 70 95 92 110 130" Stroke="Black" Canvas.Left="92" Canvas.Top="10"></Polyline>
+        <Rectangle Name="rectangle1" Width="77" Height="80" Canvas.Left="338" Canvas.Top="28" Stroke="BlueViolet" Fill="PaleVioletRed">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.868" ScaleX="0.576"/>
+                    <SkewTransform AngleY="35.175012397986052"/>
+                    <RotateTransform Angle="19.295342735331221"/>
+                    <TranslateTransform X="27.544243920620541" Y="92.145430387199241"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+
+
+        </Rectangle>
+        <Polygon Points="10 30 40 50 20 0 70 0" Canvas.Left="73" Canvas.Top="202" Stroke="Black" Fill="Blue">
+        </Polygon>
+        <Ellipse Width="50" Height="100" Stroke="Black" StrokeDashCap="Square" Canvas.Left="236" Canvas.Top="72"></Ellipse>
+    </Canvas>
+</Window>
